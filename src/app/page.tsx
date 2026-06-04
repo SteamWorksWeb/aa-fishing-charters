@@ -69,7 +69,7 @@ export default function HomePage() {
             Sebastian, FL · Indian River · Offshore Reefs
           </motion.p>
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }} className="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">
-            Unforgettable Days on the{" "}<span className="text-orange-400">Sebastian Water.</span><br />Built for Your Family.
+            Making memories -<br />one fish, one smile, <span className="text-orange-400">one day at a time!</span>
           </motion.h1>
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }} className="text-slate-300 text-lg md:text-xl leading-relaxed mb-8 max-w-2xl mx-auto">
             Captain Sonny Richards delivers world-class inshore and offshore fishing adventures — from the calm Indian River Lagoon to the deep Atlantic. All skill levels welcome.
