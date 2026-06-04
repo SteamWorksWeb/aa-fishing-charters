@@ -89,23 +89,6 @@ export default function HomePage() {
         </motion.div>
       </section>
 
-      {/* ── PAIN POINTS ── */}
-      <section className="bg-white py-16 px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {painPoints.map((pt, i) => {
-            const Icon = pt.icon;
-            return (
-              <motion.div key={pt.title} {...fadeUp} transition={{ duration: 0.55, delay: i * 0.1 }} className="group flex flex-col gap-4 bg-white border border-slate-200 hover:border-orange-500/40 rounded-xl p-8 transition-all duration-300 hover:-translate-y-1 shadow-sm hover:shadow-md">
-                <span className="w-12 h-12 rounded-[10px] bg-orange-500/15 flex items-center justify-center shrink-0">
-                  <Icon className="w-6 h-6 text-orange-400" strokeWidth={1.8} />
-                </span>
-                <h3 className="text-slate-900 text-xl font-bold leading-snug">{pt.title}</h3>
-                <p className="text-slate-600 text-sm leading-relaxed">{pt.body}</p>
-              </motion.div>
-            );
-          })}
-        </div>
-      </section>
 
       {/* ── SERVICES ── */}
       <section className="bg-slate-50 py-20 px-4">
@@ -218,6 +201,24 @@ export default function HomePage() {
               View Full Gallery <ChevronRight size={16} />
             </Link>
           </motion.div>
+        </div>
+      </section>
+
+      {/* ── PAIN POINTS ── */}
+      <section className="bg-white py-16 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+          {painPoints.map((pt, i) => {
+            const Icon = pt.icon;
+            return (
+              <motion.div key={pt.title} {...fadeUp} transition={{ duration: 0.55, delay: i * 0.1 }} className="group flex flex-col gap-4 bg-white border border-slate-200 hover:border-orange-500/40 rounded-xl p-8 transition-all duration-300 hover:-translate-y-1 shadow-sm hover:shadow-md">
+                <span className="w-12 h-12 rounded-[10px] bg-orange-500/15 flex items-center justify-center shrink-0">
+                  <Icon className="w-6 h-6 text-orange-400" strokeWidth={1.8} />
+                </span>
+                <h3 className="text-slate-900 text-xl font-bold leading-snug">{pt.title}</h3>
+                <p className="text-slate-600 text-sm leading-relaxed">{pt.body}</p>
+              </motion.div>
+            );
+          })}
         </div>
       </section>
 
