@@ -205,8 +205,15 @@ export default function HomePage() {
       </section>
 
       {/* ── PAIN POINTS ── */}
-      <section className="bg-white py-16 px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+      <section className="bg-white py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <motion.div {...fadeUp} className="text-center mb-12">
+            <p className="text-orange-400 text-sm uppercase tracking-[0.2em] font-semibold mb-3">The AA Difference</p>
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Why Choose AA Fishing Charter?</h2>
+            <p className="text-slate-600 max-w-xl mx-auto text-base">We go the extra mile to ensure your day on the water is safe, productive, and truly unforgettable.</p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {painPoints.map((pt, i) => {
             const Icon = pt.icon;
             return (
@@ -219,6 +226,7 @@ export default function HomePage() {
               </motion.div>
             );
           })}
+          </div>
         </div>
       </section>
 
