@@ -60,7 +60,7 @@ export default function HomePage() {
     <>
       {/* ── HERO ── */}
       <section className="relative min-h-[92vh] flex items-center justify-center overflow-hidden">
-        <Image src="/images/hero-1.webp" alt="Fishing on the Sebastian Water with Captain Sonny Richards" fill priority fetchPriority="high" quality={85} className="object-cover object-center" sizes="100vw" />
+        <Image src="/images/aa-hero-v1.jpg" alt="Fishing on the Sebastian Water with Captain Sonny Richards" fill priority fetchPriority="high" quality={85} className="object-cover object-center" sizes="100vw" />
         <div className="absolute inset-0 bg-black/50 z-10" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-[#0d1b2a] z-10" />
 
