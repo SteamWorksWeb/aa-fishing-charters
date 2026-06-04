@@ -3,14 +3,14 @@ import Image from "next/image";
 import { Phone, Mail } from "lucide-react";
 
 const quickLinks = [
-  { label: "Home",             href: "/" },
-  { label: "Trips & Rates",    href: "/sebastian-fl-fishing-charter-rates" },
-  { label: "Gallery",          href: "/sebastian-fl-fishing-charter-photos" },
-  { label: "Reviews",          href: "/sebastian-fl-fishing-charter-reviews" },
-  { label: "Reports",          href: "/sebastian-fl-fishing-reports" },
-  { label: "Target Species",   href: "/sebastian-fl-fish-species" },
-  { label: "Meet the Captain", href: "/captain-sonny-richards-of-sebastian-fl" },
-  { label: "Gift Card",        href: "/gift-card" },
+  { label: "Home",           href: "/" },
+  { label: "About",          href: "/captain-sonny-richards-of-sebastian-fl" },
+  { label: "Target Species", href: "/sebastian-fl-fish-species" },
+  { label: "Reviews",        href: "/sebastian-fl-fishing-charter-reviews" },
+  { label: "Photos",         href: "/sebastian-fl-fishing-charter-photos" },
+  { label: "Rates",          href: "/sebastian-fl-fishing-charter-rates" },
+  { label: "Reports",        href: "/sebastian-fl-fishing-reports" },
+  { label: "Contact",        href: "/contact" },
 ];
 
 export default function Footer() {

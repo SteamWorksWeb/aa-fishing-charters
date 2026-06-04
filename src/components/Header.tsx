@@ -14,21 +14,7 @@ type NavLink = {
 
 const navLinks: NavLink[] = [
   { label: "Home", href: "/" },
-  { label: "Trips & Rates", href: "/sebastian-fl-fishing-charter-rates" },
-  { label: "Gallery", href: "/sebastian-fl-fishing-charter-photos" },
-  { label: "Reviews", href: "/sebastian-fl-fishing-charter-reviews" },
-  { label: "Reports", href: "/sebastian-fl-fishing-reports" },
-  { label: "Target Species", href: "/sebastian-fl-fish-species" },
-  { label: "Meet the Captain", href: "/captain-sonny-richards-of-sebastian-fl" },
-  {
-    label: "Learn More",
-    children: [
-      { label: "Mystery Marlin", href: "/mystery-marlin" },
-      { label: "Things To Do", href: "/things-to-do" },
-      { label: "Merchandise", href: "/merchandise" },
-      { label: "Gift Card", href: "/gift-card" },
-    ],
-  },
+  { label: "About", href: "/captain-sonny-richards-of-sebastian-fl" },
   {
     label: "My Trips",
     children: [
@@ -40,6 +26,21 @@ const navLinks: NavLink[] = [
       { label: "Reef Romp", href: "/trips/reef-romp" },
     ],
   },
+  { label: "Target Species", href: "/sebastian-fl-fish-species" },
+  {
+    label: "Learn More",
+    children: [
+      { label: "Mystery Marlin", href: "/mystery-marlin" },
+      { label: "Things To Do", href: "/things-to-do" },
+      { label: "Merchandise", href: "/merchandise" },
+      { label: "Gift Card", href: "/gift-card" },
+    ],
+  },
+  { label: "Reviews", href: "/sebastian-fl-fishing-charter-reviews" },
+  { label: "Photos", href: "/sebastian-fl-fishing-charter-photos" },
+  { label: "Rates", href: "/sebastian-fl-fishing-charter-rates" },
+  { label: "Reports", href: "/sebastian-fl-fishing-reports" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Header() {
