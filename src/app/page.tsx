@@ -64,17 +64,17 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-black/50 z-10" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-[#0d1b2a] z-10" />
 
-        <div className="relative z-20 max-w-5xl mx-auto px-6 text-center">
+        <div className="relative z-20 max-w-7xl w-full mx-auto px-6 text-center lg:text-left">
           <motion.p initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.05 }} className="text-orange-400 text-sm uppercase tracking-[0.25em] font-semibold mb-4">
             Sebastian, FL · Indian River · Offshore Reefs
           </motion.p>
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }} className="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">
             Making memories -<br />one fish, one smile,<br />one dream at a time!
           </motion.h1>
-          <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }} className="text-slate-300 text-lg md:text-xl leading-relaxed mb-8 max-w-2xl mx-auto">
+          <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }} className="text-slate-300 text-lg md:text-xl leading-relaxed mb-8 max-w-2xl mx-auto lg:mx-0">
             Captain Sonny Richards delivers world-class inshore and offshore fishing adventures — from the calm Indian River Lagoon to the deep Atlantic. All skill levels welcome.
           </motion.p>
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.3 }} className="flex flex-col sm:flex-row gap-4 justify-center">
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.3 }} className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <Link href="/sebastian-fl-fishing-charter-rates" id="hero-book-cta" className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-md text-base shadow-xl hover:shadow-orange-500/50 transition-all duration-300 group">
               View Trips & Rates <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </Link>
